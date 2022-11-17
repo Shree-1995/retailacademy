@@ -48,8 +48,8 @@ class _InfoSessionsScreenState extends State<InfoSessionsScreen> {
                       _controller.joinMeeting(
                           context: context,
                           userName: 'Mahindra',
-                          meetingId: '95784595243',
-                          meetingPassword: '');
+                          meetingId: '88231561998',
+                          meetingPassword: '7MJ4PP');
                     },
                     child: Image.asset(AppImages.imgInfoSessionBackground)),
               ),
