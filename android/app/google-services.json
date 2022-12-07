@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "899686427532",
+    "project_id": "retailtest-ad8dc",
+    "storage_bucket": "retailtest-ad8dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899686427532:android:de954471a6beca355604a9",
+        "android_client_info": {
+          "package_name": "com.retailacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899686427532-0ur8como0a46vl4lu4j312b83goqpr7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMO2SJsFNn9OVLSysBgeIkDfIio3r5s1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899686427532-0ur8como0a46vl4lu4j312b83goqpr7b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "899686427532-neqibftfsvevbcndgv1p36fdq4svkuuc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cwretailservices.staffapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

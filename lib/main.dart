@@ -42,9 +42,7 @@ void main() async {
     DeviceOrientation.portraitDown,
     DeviceOrientation.portraitUp,
   ]);
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  await Firebase.initializeApp();
   FlutterError.onError = (errorDetails) {
     // If you wish to record a "non-fatal" exception, please use `FirebaseCrashlytics.instance.recordFlutterError` instead
     FirebaseCrashlytics.instance.recordFlutterFatalError(errorDetails);
@@ -75,7 +73,7 @@ void main() async {
 
     if (swAvailable && swInterceptAvailable) {
       AndroidServiceWorkerController serviceWorkerController =
-      AndroidServiceWorkerController.instance();
+          AndroidServiceWorkerController.instance();
 
       await serviceWorkerController
           .setServiceWorkerClient(AndroidServiceWorkerClient(
@@ -133,8 +131,4 @@ class MyApp extends StatelessWidget {
       },
     );
   }
-
 }
-
-
-
